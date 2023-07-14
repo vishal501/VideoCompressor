@@ -13,6 +13,6 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 ```gradle
  dependencies {
-	        implementation 'com.github.vishal501:VideoCompressor:Tag'
+	        implementation 'com.github.vishal501:VideoCompressor:v1.0.0'
 	}
 ```
