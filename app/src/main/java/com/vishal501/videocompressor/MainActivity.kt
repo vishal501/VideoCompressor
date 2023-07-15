@@ -19,12 +19,12 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.vishal501.videocompressor.databinding.ActivityMainBinding
-import com.vishal501.videocompressor.CompressionListener
-import com.vishal501.videocompressor.VideoCompressor
-import com.vishal501.videocompressor.VideoQuality
-import com.vishal501.videocompressor.config.Configuration
-import com.vishal501.videocompressor.config.SaveLocation
-import com.vishal501.videocompressor.config.SharedStorageConfiguration
+import com.vishal501.videocompressorlib.CompressionListener
+import com.vishal501.videocompressorlib.VideoCompressor
+import com.vishal501.videocompressorlib.VideoQuality
+import com.vishal501.videocompressorlib.config.Configuration
+import com.vishal501.videocompressorlib.config.SaveLocation
+import com.vishal501.videocompressorlib.config.SharedStorageConfiguration
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {

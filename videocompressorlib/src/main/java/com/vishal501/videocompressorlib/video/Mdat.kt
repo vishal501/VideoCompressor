@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.video
+package com.vishal501.videocompressorlib.video
 
 import com.coremedia.iso.BoxParser
 import com.coremedia.iso.IsoFile

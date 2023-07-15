@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor
+package com.vishal501.videocompressorlib
 
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread

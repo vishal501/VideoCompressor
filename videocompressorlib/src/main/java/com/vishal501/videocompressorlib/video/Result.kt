@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.video
+package com.vishal501.videocompressorlib.video
 
 data class Result(
     val index: Int,

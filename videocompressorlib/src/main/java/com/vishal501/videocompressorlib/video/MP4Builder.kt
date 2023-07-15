@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.video
+package com.vishal501.videocompressorlib.video
 
 import android.media.MediaCodec
 import android.media.MediaFormat

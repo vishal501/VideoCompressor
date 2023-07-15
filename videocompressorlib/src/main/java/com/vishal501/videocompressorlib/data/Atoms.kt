@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.data
+package com.vishal501.videocompressorlib.data
 
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

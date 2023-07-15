@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor
+package com.vishal501.videocompressorlib
 
 import android.content.ContentValues
 import android.content.Context
@@ -9,10 +9,14 @@ import android.os.Build
 import android.os.Environment
 import android.provider.MediaStore
 import androidx.annotation.RequiresApi
-import com.vishal501.videocompressor.compressor.Compressor.compressVideo
-import com.vishal501.videocompressor.compressor.Compressor.isRunning
+import com.vishal501.videocompressorlib.compressor.Compressor.compressVideo
+import com.vishal501.videocompressorlib.compressor.Compressor.isRunning
 import com.vishal501.videocompressor.config.*
-import com.vishal501.videocompressor.video.Result
+import com.vishal501.videocompressorlib.video.Result
+import com.vishal501.videocompressorlib.config.AppSpecificStorageConfiguration
+import com.vishal501.videocompressorlib.config.Configuration
+import com.vishal501.videocompressorlib.config.SaveLocation
+import com.vishal501.videocompressorlib.config.SharedStorageConfiguration
 import kotlinx.coroutines.*
 import java.io.File
 import java.io.FileInputStream

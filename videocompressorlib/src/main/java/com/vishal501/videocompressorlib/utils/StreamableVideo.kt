@@ -1,7 +1,20 @@
-package com.vishal501.videocompressor.utils
+package com.vishal501.videocompressorlib.utils
 
 import android.util.Log
 import com.vishal501.videocompressor.data.*
+import com.vishal501.videocompressorlib.data.CMOV_ATOM
+import com.vishal501.videocompressorlib.data.CO64_ATOM
+import com.vishal501.videocompressorlib.data.FREE_ATOM
+import com.vishal501.videocompressorlib.data.FTYP_ATOM
+import com.vishal501.videocompressorlib.data.JUNK_ATOM
+import com.vishal501.videocompressorlib.data.MDAT_ATOM
+import com.vishal501.videocompressorlib.data.MOOV_ATOM
+import com.vishal501.videocompressorlib.data.PICT_ATOM
+import com.vishal501.videocompressorlib.data.PNOT_ATOM
+import com.vishal501.videocompressorlib.data.SKIP_ATOM
+import com.vishal501.videocompressorlib.data.STCO_ATOM
+import com.vishal501.videocompressorlib.data.UUID_ATOM
+import com.vishal501.videocompressorlib.data.WIDE_ATOM
 import java.io.*
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

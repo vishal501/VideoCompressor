@@ -1,3 +1,3 @@
-package com.vishal501.videocompressor.video
+package com.vishal501.videocompressorlib.video
 
 data class Sample(var offset: Long, var size: Long)

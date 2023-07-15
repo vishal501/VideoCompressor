@@ -1,6 +1,6 @@
-package com.vishal501.videocompressor.config
+package com.vishal501.videocompressorlib.config
 
-import com.vishal501.videocompressor.VideoQuality
+import com.vishal501.videocompressorlib.VideoQuality
 
 data class Configuration(
     var quality: VideoQuality = VideoQuality.MEDIUM,

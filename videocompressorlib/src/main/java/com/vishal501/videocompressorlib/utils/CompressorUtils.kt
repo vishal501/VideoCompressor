@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.utils
+package com.vishal501.videocompressorlib.utils
 
 import android.media.MediaCodecInfo
 import android.media.MediaCodecList
@@ -6,8 +6,8 @@ import android.media.MediaExtractor
 import android.media.MediaFormat
 import android.media.MediaMetadataRetriever
 import android.util.Log
-import com.vishal501.videocompressor.VideoQuality
-import com.vishal501.videocompressor.video.Mp4Movie
+import com.vishal501.videocompressorlib.VideoQuality
+import com.vishal501.videocompressorlib.video.Mp4Movie
 import java.io.File
 import kotlin.math.roundToInt
 

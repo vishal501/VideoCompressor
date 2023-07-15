@@ -1,4 +1,4 @@
-package com.vishal501.videocompressor.utils
+package com.vishal501.videocompressorlib.utils
 
 import kotlin.math.roundToInt
 
