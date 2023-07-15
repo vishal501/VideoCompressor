@@ -11,7 +11,7 @@ import android.provider.MediaStore
 import androidx.annotation.RequiresApi
 import com.vishal501.videocompressorlib.compressor.Compressor.compressVideo
 import com.vishal501.videocompressorlib.compressor.Compressor.isRunning
-import com.vishal501.videocompressor.config.*
+//import com.vishal501.videocompressor.config.*
 import com.vishal501.videocompressorlib.video.Result
 import com.vishal501.videocompressorlib.config.AppSpecificStorageConfiguration
 import com.vishal501.videocompressorlib.config.Configuration

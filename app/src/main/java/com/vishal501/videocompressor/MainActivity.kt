@@ -183,7 +183,7 @@ class MainActivity : AppCompatActivity() {
 //
 //                ),
                 configureWith = Configuration(
-                    quality = VideoQuality.LOW,
+                    quality = VideoQuality.HIGH,
                     videoNames = uris.map { uri -> uri.pathSegments.last() },
                     isMinBitrateCheckEnabled = true,
                 ),

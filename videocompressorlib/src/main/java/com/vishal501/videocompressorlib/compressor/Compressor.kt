@@ -17,7 +17,7 @@ import com.vishal501.videocompressorlib.utils.CompressorUtils.printException
 import com.vishal501.videocompressorlib.utils.CompressorUtils.setOutputFileParameters
 import com.vishal501.videocompressorlib.utils.CompressorUtils.setUpMP4Movie
 import com.vishal501.videocompressorlib.utils.StreamableVideo
-import com.vishal501.videocompressor.video.*
+//import com.vishal501.videocompressor.video.*
 import com.vishal501.videocompressorlib.video.InputSurface
 import com.vishal501.videocompressorlib.video.MP4Builder
 import com.vishal501.videocompressorlib.video.OutputSurface
